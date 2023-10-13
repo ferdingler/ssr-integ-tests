@@ -9,6 +9,15 @@ export default function Redirects() {
   return (
     <>
       <h1>Images</h1>
+      <h2>Remote Image</h2>
+      <Image
+        src="https://images.unsplash.com/photo-1682685797507-d44d838b0ac7"
+        width={600}
+        height={300}
+        quality={100}
+        alt="unsplash"
+      />
+
       <h2> Small</h2>
       <Image
         src="/small-pillars-of-creation.avif"
